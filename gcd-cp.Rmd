@@ -1,0 +1,22 @@
+---
+title: "Getting and Cleaning Data Course Project"
+author: "George Feller"
+date: "March 29, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Download data from URL provided by instructor.
+```{r project_data}
+if (!dir.exists('UCI HAR Dataset')) {
+  url_dataset = 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
+  filename <- 'UCI HAR Dataset.zip'
+  download.file(url_dataset, filename)
+  unzip(filename)
+}
+```
+
+
