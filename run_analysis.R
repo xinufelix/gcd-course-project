@@ -65,5 +65,5 @@ tidy <- data[, lapply(.SD, mean), by = list(subject, activity)]
 tidy_vars <- setdiff(names(tidy), c('subject', 'activity'))
 setnames(tidy, old = tidy_vars, new = paste('mean', sep = '', tidy_vars))
 
-# Write the tidy data set to a csv file with headers.
-write.csv(tidy, file = "activity.csv", row.names = FALSE)
+# Write the tidy data set to a text file.
+write.table(tidy, file = "activities.txt", row.names = FALSE)

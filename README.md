@@ -5,6 +5,9 @@ Getting and Cleaning Data Course Project
 The script `run_analysis.r` transforms the raw [UCI HAR Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) to
 create a [tidy](./activity.csv) summary data set.
 
+*Note* The script checks for the presence of the `UCI HAR Dataset` subdirectory in the working directory. If it
+is not found, the script will try and download a copy of the `UCI HAR Dataset.zip` and extract its contents.
+
 The `run_analysis.R` script does the following:
 
 1. Merges the raw `training` and `test` sets to create one data set.
@@ -16,4 +19,4 @@ The `run_analysis.R` script does the following:
 See [run_analysis.R](./run_analysis.R) for transformation details.
 
 ## Codebook
-See the [codebook](./CodeBook.md) for information about the [tidy data](./activity.csv) data set that was produced by `run_analysis.R`.
+See the [codebook](./CodeBook.md) for information about the [tidy data](./activity.txt) data set that was produced by `run_analysis.R`.
