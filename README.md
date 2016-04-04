@@ -19,4 +19,4 @@ The `run_analysis.R` script does the following:
 See [run_analysis.R](./run_analysis.R) for transformation details.
 
 ## Codebook
-See the [codebook](./CodeBook.md) for information about the [tidy data](./activity.txt) data set that was produced by `run_analysis.R`.
+See the [codebook](./CodeBook.md) for information about the [tidy data](./activities.txt) data set that was produced by `run_analysis.R`.
