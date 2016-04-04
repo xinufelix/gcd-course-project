@@ -1,4 +1,4 @@
-Data code book for file: `activity.csv`.
+Data code book for file: `activities.csv`.
 
 ## Data
 1. The tidy data set contains the average of each `mean` and `standard deviation` measurement for each activity and each subject.
